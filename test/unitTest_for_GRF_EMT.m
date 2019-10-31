@@ -10,7 +10,7 @@ classdef unitTest_for_GRF_EMT < matlab.unittest.TestCase
     
     methods(TestClassSetup)
         function create_epanet_pdd(testCase)
-            testCase.obj = epanet_pdd('net03.inp');
+            testCase.obj = epanet_pdd('foss_poly_1.inp');
         end
     end
     methods(Test)
